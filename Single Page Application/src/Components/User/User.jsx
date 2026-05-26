@@ -1,0 +1,14 @@
+import "./User.css"
+const User = ({user}) => {
+    const{name,email,phone}=user
+
+    return (
+        <div className="style">
+            <h3>Name:{name}</h3>
+            <h4>Email: {email}</h4>
+            <small>Phone: {phone}</small>
+        </div>
+    );
+};
+
+export default User;
